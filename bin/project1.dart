@@ -68,4 +68,7 @@ void main(List<String> arguments) {
     // Code that always executes, regardless of whether an exception occurred
     print("Execution complete.");
   }
+  String? kendaraan;
+  String kendaraan1 = "bajai";
+  stdout.writeln("kendaraan $kendaraan");
 }
