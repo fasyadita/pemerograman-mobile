@@ -32,6 +32,15 @@ void main(List<String> arguments) {
   }
   stdout.writeln("alamat saya $alamat");
 
+  num nilai = 90; //bisa diiisi int dan double
+  stdout.writeln("nilai saya adalah $nilai");
+  dynamic bebas = true ; //bisa diisi apa aja
+  stdout.writeln("nilai dari dynamic adalah  $bebas");
+  String angka1 = "15";
+  int angka2 = int.parse(angka1);
+  int angka3 = bebas;
 
+  //list
+  
 
 }
